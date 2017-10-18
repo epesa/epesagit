@@ -1,0 +1,17 @@
+!SESSION 2017-10-18 12:24:31.452 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-10-18 12:35:55.439
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-10-18 12:35:55.439
+!MESSAGE Conflict for 'org.eclipse.team.cvs.ui.ignore':
+HandlerActivation(commandId=org.eclipse.team.cvs.ui.ignore,
+	handler=LegacyHandlerWrapper(ActionHandler(action=org.eclipse.team.internal.ccvs.ui.subscriber.CVSActionDelegateWrapper@18192b6)),
+	expression=LegacyHandlerSubmission(Shell {Share Project},null,null),sourcePriority=5120)
+HandlerActivation(commandId=org.eclipse.team.cvs.ui.ignore,
+	handler=LegacyHandlerWrapper(ActionHandler(action=org.eclipse.team.internal.ccvs.ui.wizards.SharingWizardPageActionGroup$1@1c721de)),
+	expression=LegacyHandlerSubmission(Shell {Share Project},null,null),sourcePriority=5120)
